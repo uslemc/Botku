@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+bot.login("NjgwNzk0ODI1OTY0MTI2Mjc2.XlFF2w.dq65eBX1kPpBeuMaCembDhrVnRg");
 
-const token ='NjgwNzk0ODI1OTY0MTI2Mjc2.XlFF2w.dq65eBX1kPpBeuMaCembDhrVnRg';
+
 
 const PREFIX = 'rpg';
 
@@ -39,4 +40,3 @@ bot.on('message', message=>{
 
 })
 
-bot.login(token);
