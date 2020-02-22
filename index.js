@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-
+const token = "NjgwNzk0ODI1OTY0MTI2Mjc2.XlFvoA.dugkRjeAqtmEKQuc7-h410EJCEc";
 
 const PREFIX = 'rpg';
 
@@ -38,4 +38,4 @@ bot.on('message', message=>{
 
 })
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(token);
